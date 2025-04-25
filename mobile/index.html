@@ -52,7 +52,7 @@
     <script>// List of allowed domains
         var allowedDomains = [
             'freezeenova.github.io',
-            'unblocked-games.s3-accelerate.amazonaws.com'
+            'freezeenova.github.io'
         ];
 
         // Function to add meta tags for specific domains and paths
@@ -88,7 +88,7 @@
                     document.title = `${currentTitle} - ${hostname}`;
                 }
             }
-            else if (hostname == 'unblocked-games.s3-accelerate.amazonaws.com') {
+            else if (hostname == 'freezeenova.github.io') {
                 var currentTitle = document.title;
                 document.title = `${currentTitle} Accelerate`;
             }
@@ -108,7 +108,7 @@
                             firstHeading.innerHTML += ` <sup>${hostname}</sup>`;
                         }
                     }
-                    else if (hostname == 'unblocked-games.s3-accelerate.amazonaws.com') {
+                    else if (hostname == 'freezeenova.github.io') {
                         firstHeading.innerHTML += ' <sup>Accelerate</sup>';
                     }
                 }

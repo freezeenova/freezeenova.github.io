@@ -33,8 +33,8 @@ meta name="robots" content="index, follow">
             // Check the domain name
             var scriptSrc, configId;
 
-            if (window.location.hostname === 'unblocked-games.s3-accelerate.amazonaws.com') {
-                // Google Analytics ID for unblocked-games.s3-accelerate.amazonaws.com
+            if (window.location.hostname === 'freezeenova.github.io') {
+                // Google Analytics ID for freezeenova.github.io
                 scriptSrc = 'https://www.googletagmanager.com/gtag/js?id=G-S5X25J1HQ5';
                 configId = 'G-S5X25J1HQ5';
             }
@@ -111,7 +111,7 @@ meta name="robots" content="index, follow">
         // List of allowed domains
   var allowedDomains = [
     'freezeenova.github.io',
-    'unblocked-games.s3-accelerate.amazonaws.com'
+    'freezeenova.github.io'
   ];
 
   // Function to add meta tags for specific domains and paths
@@ -149,7 +149,7 @@ meta name="robots" content="index, follow">
       		document.title = `${currentTitle} - ${hostname}`;
     	}
     }
-    else if (hostname == 'unblocked-games.s3-accelerate.amazonaws.com')
+    else if (hostname == 'freezeenova.github.io')
     {
     	var currentTitle = document.title;
       	document.title = `${currentTitle} Accelerate`;
@@ -172,7 +172,7 @@ meta name="robots" content="index, follow">
     					firstHeading.innerHTML += ` <sup>${hostname}</sup>`;
     				}
 				}
-				else if (hostname == 'unblocked-games.s3-accelerate.amazonaws.com')
+				else if (hostname == 'freezeenova.github.io')
 				{
 					firstHeading.innerHTML += ' <sup>Accelerate</sup>';
 				}
